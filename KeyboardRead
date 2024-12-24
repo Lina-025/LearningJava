@@ -1,0 +1,19 @@
+import java.lang.*;
+import java.util.*;
+
+class KeyboardRead {
+   
+   public static void main(String[] args)
+   { 
+      Scanner s=new Scanner(System.in);
+      
+      System.out.println("Please inter 2 integer from the keyboard : ");
+      int a,b,c;
+   
+      a= s.nextInt();
+      b= s.nextInt();
+      c=a+b;
+      
+      System.out.println("the sum is :" + c);
+   }
+}
