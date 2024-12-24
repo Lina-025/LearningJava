@@ -1,0 +1,13 @@
+import java.lang.*;
+
+class Second
+{
+   public static void main(String[] args)
+   {
+      System.out.println("Hello World");
+      System.out.println(args[0]);
+      System.out.println(args[1]);
+   }
+}
+//in the cpmmand line argument input space we input both words for each arg and put space between them to print them
+// this is demo of command line argumet being used
